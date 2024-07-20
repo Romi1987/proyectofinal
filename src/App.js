@@ -1,4 +1,4 @@
-import logo from ".Componentes/logo-flor.png";
+import logo from "./logo-flor.png";
 import "./App.css";
 import React from "react";
 import Header from "./Componentes/Header";
