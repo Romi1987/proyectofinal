@@ -1,4 +1,4 @@
-import logo from "./logo-flor.png";
+import logo from ".Componentes/logo-flor.png";
 import "./App.css";
 import React from "react";
 import Header from "./Componentes/Header";
@@ -9,20 +9,12 @@ import Contacto from "./Componentes/Contacto";
 import Footer from "./Componentes/Footer";
 
 function App() {
-  return (
+    return (
     <main className="App">  {/* Add class for overall styling */}
       <Header />  {/* Render Header component */}
       <div className="fondo"> {/* Add class for background styling */}
         <img src={logo} className="App-logo" alt="logo-flor" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Turnos
-        </a>
-        <div className="components-container"> {/* Add class for component organization */}
+          <div className="components-container"> {/* Add class for component organization */}
           <About />
           <Sesiones />
           <Testimonios />
