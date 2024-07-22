@@ -8,14 +8,24 @@ import Testimonios from "./Componentes/Testimonios";
 import Contacto from "./Componentes/Contacto";
 import Footer from "./Componentes/Footer";
 
+import "./Componentes/Header.css";
+import "./Componentes/About.css";
+import "./Componentes/Sesiones.css";
+import "./Componentes/Testimonios.css";
+import "./Componentes/Contacto.css";
+import "./Componentes/Footer.css";
 
 function App() {
     return (
-    <main className="App">  {/* Add class for overall styling */}
+      <main className="App">  {/* Add class for overall styling */}
       <Header />  {/* Render Header component */}
       <div className="fondo"> {/* Add class for background styling */}
         <img src={logo} className="App-logo" alt="logo-flor" />
           <div className="components-container"> {/* Add class for component organization */}
+            <div>
+         <div className='container'>
+         </div>
+         </div>
           <About />
           <Sesiones />
           <Testimonios />

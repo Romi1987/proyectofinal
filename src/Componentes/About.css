@@ -1,0 +1,41 @@
+.title-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(165, 27, 210);
+    text-shadow: 2px 2px 5px rgba(15, 13, 9, 0.662);
+  }
+  
+  .title-font.sm\:text-4xl {
+    font-size: 36px; /* Equivalent to 4xl in rem units */
+  }
+  
+  .title-font.text-3xl {
+    font-size: 24px; /* Equivalent to 3xl in rem units */
+  }
+  
+  .container {
+    margin-top: 100px; /* Adjust as needed for layout */
+  }
+  .mb-8.leading-relaxed {
+    max-width: 70%; /* Ajusta el porcentaje según tus necesidades */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+  }
+  .container { /* Asegúrate de que tu contenedor tenga la clase "container" */
+    display: flex;
+    flex-direction: column; /* Ajusta a "row" si quieres que los elementos se distribuyan en fila */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  .mb-8.leading-relaxed {
+    flex: 1; /* Permite que el párrafo ocupe el espacio disponible */
+    max-width: 60%; /* Establece el ancho máximo */
+  }
+  .container { /* Asegúrate de que tu contenedor tenga la clase "container" */
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna que ocupa todo el ancho */
+    align-items: center; /* Centra los elementos verticalmente */
+  }
+  
+  .mb-8.leading-relaxed {
+    max-width: 70%; /* Establece el ancho máximo */
+  }
