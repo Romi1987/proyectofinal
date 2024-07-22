@@ -1,9 +1,6 @@
 import React from 'react';
 import './Header.css';
 
-import React from 'react';
-import './Header.css';
-
 function Header() {
   return (
     <div className="header-container"> {/* Add a class for styling */}

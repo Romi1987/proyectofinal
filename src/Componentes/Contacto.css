@@ -1,7 +1,11 @@
 .leading-relaxed  {
 
 max-width: 70%; /* Ajusta el porcentaje según tus necesidades */
-margin: 0 auto; /* Centra el párrafo horizontalmente */
+margin: auto; /* Centra el párrafo horizontalmente */
+}
+.relative  {
+    margin: 2%; /* Centra el párrafo horizontalmente */
+ 
 }
 
     
