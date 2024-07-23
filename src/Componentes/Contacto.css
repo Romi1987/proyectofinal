@@ -7,5 +7,11 @@ margin: auto; /* Centra el párrafo horizontalmente */
     margin: 2%; /* Centra el párrafo horizontalmente */
  
 }
+.contacto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(165, 27, 210);
+    text-shadow: 2px 2px 5px rgba(15, 13, 9, 0.662);
+  }
 
     

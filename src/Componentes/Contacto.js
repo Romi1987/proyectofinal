@@ -18,7 +18,7 @@ export  function Contacto() {
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+              <h2 className="title-font font-semibold text-violet tracking-widest text-xs">
                 Mi dirección
               </h2>
               <p className="mt-1">
@@ -33,7 +33,7 @@ export  function Contacto() {
               <a className="text-indigo-400 leading-relaxed">
                 0223-9895-5426
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              <h2 className="title-font font-semibold text-violet tracking-widest text-xs mt-4">
                 Formulario de contacto:
               </h2>
               <p className="leading-relaxed">Te responderé a la brevedad.</p>

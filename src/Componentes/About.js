@@ -14,12 +14,7 @@ const About = () => {
             Hace más de diez años que me dedico al maquillaje en Mar del Plata y alrededores. Realicé a lo largo de los años varias capacitaciones que me llevaron no sólo a perfeccionar mi técnica, sino tambien a ofrecer cursos de capacitación tanto a profesionales como amantes de las tendencias y el maquillaje.
           </p>
           <div className="flex justify-center">
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            >
-              Mira mis trabajos anteriores
-            </a>
+           
           </div>
         </div>
       </div>

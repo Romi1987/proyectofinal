@@ -3,6 +3,7 @@ import "./App.css";
 import React from "react";
 import Header from "./Componentes/Header";
 import About from "./Componentes/About";
+import Carrousel from "./Componentes/Carrousel";
 import Sesiones from "./Componentes/Sesiones";
 import Testimonios from "./Componentes/Testimonios";
 import Contacto from "./Componentes/Contacto";
@@ -10,10 +11,12 @@ import Footer from "./Componentes/Footer";
 
 import "./Componentes/Header.css";
 import "./Componentes/About.css";
+import "./Componentes/Carrousel";
 import "./Componentes/Sesiones.css";
 import "./Componentes/Testimonios.css";
 import "./Componentes/Contacto.css";
 import "./Componentes/Footer.css";
+
 
 function App() {
     return (
@@ -27,6 +30,7 @@ function App() {
          </div>
          </div>
           <About />
+          <Carrousel />
           <Sesiones />
           <Testimonios />
           <Contacto />
