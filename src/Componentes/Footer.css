@@ -1,0 +1,15 @@
+.footer {
+  background-color: #ae5bd5; /* Color violeta */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-top {
+  width: 100%;
+}
+
+.footer-bottom {
+  width: 100%;
+  color: #fff; /* Color del texto en blanco */
+}

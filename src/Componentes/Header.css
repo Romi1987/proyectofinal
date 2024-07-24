@@ -1,20 +1,25 @@
 .header-container {
-    background-color: black;
-    align-items: auto;
+    background-color: rgb(65, 11, 72);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns buttons vertically in the center */
     overflow: hidden;
-   
-    
-}
-.App-link {
-    background-color: black;
-    margin-top: -180px;
+    padding: 10px 20px; /* Adds some padding to the container */
+  }
+  
+  .header-button {
+    background-color: #440e5d; /* Sets a background color for the buttons */
+    color: rgb(240, 235, 241);
     text-align: center;
-    align-items: center;
-    color: rgb(165, 27, 210);
-    text-shadow: 2px 2px 5px #eb06d1;
-    
-        }
-        
-    
+    padding: 10px 20px; /* Adjusts padding for button size */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Adds rounded corners to the buttons */
+    transition: background-color 0.3s ease; /* Adds hover effect */
+  }
+  
+  .header-button:hover {
+    background-color: #9174e3; /* Darkens the background on hover */
+  }
         
     

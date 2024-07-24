@@ -13,5 +13,15 @@ margin: auto; /* Centra el párrafo horizontalmente */
     color: rgb(165, 27, 210);
     text-shadow: 2px 2px 5px rgba(15, 13, 9, 0.662);
   }
-
+  .submit {
+    background-color: violet;
+    color: white;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* hover del botón */
+  .submit :hover {
+    background-color: blue;
+  }
     

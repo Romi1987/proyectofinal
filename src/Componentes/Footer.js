@@ -1,15 +1,19 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'; // Corregido
 
-const Footer = () => {
+
+
+function Footer() {
   return (
     <footer>
       <div className="container my-4">
-        <div className="d-flex justify-content-center py-1" style={{ backgroundColor: '#db30cd' }}>
-          <a href="https://www.instagram.com/" target="_blank" className="btn btn-primary btn-lg btn-floating mx-2">
-            <i className="fab fa-instagram"></i>
+        <div className="footer-top d-flex justify-content-center py-1">
+          <a href="https://www.instagram.com/florlp.makeup/" target="_blank" rel="noopener noreferrer" className="btn btn-light btn-lg btn-floating mx-2"> {/* Añadido rel="noopener noreferrer" por seguridad */}
+            <FontAwesomeIcon icon={faInstagram} size="3x"/>
           </a>
         </div>
-        <div className="text-center text-white p-3" style={{ backgroundColor: '#42085b' }}>
+        <div className="footer-bottom text-center text-white p-3">
           © 2024 Web Design Romina López
         </div>
       </div>

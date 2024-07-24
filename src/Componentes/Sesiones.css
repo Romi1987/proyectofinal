@@ -1,0 +1,13 @@
+.titulo-servicios {
+    color: rgb(234, 29, 200); /* Color violeta para el título */
+    margin-top: 40px; /* Margen superior de 40px */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    text-align: center; /* Alineación centrada del texto */
+  }
+  
+  .texto-informativo {
+    font-size: 25px; /* Tamaño de fuente para el texto informativo */
+    line-height: 1.5; /* Espacio entre líneas del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+    max-width: 600px; /* Ancho máximo para que el texto no se desborde */
+  }
