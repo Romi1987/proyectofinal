@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./logo-flor.png";
 import "./App.css";
 import React from "react";
